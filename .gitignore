@@ -1,2 +1,4 @@
 node_modules/
 uf-content/
+npm-debug.log
+server.js*

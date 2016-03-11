@@ -1,6 +1,6 @@
 # Ufront Guide for NodeJS target
 
-This is a collection of guide that is related to the NodeJS target of Ufront.
+This is a collection of guides that is related to the NodeJS target of Ufront.
 
 ## Prepare
 

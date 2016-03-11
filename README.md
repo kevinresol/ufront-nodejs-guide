@@ -31,11 +31,23 @@ haxe server.hxml
 
 ## Run
 
-Navigate to the bin folder, install the node dependencies and then run
+By default: Ufront requires the following node packages:
+- compression
+- body-parser
+- cookie-parser
+- express
+- multer
+
+The dependencies have been specified in the `package.json` file in each examples, so simply navigate to the `bin` folder, install the node dependencies by `npm install`.
 
 ```
 cd bin
 npm install
+```
+
+Then start the server:
+
+```
 npm start
 ```
 

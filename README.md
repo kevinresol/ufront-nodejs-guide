@@ -14,6 +14,12 @@ Since Ufront does support neko and php, so the guides here should also apply to 
 In nodejs, we call `listen(port)` to start the server, and in neko/php we call `executeRequest()`.
 So, by changing this call you should be able to compile most of the examples in this guide.
 
+#### Repo structure
+
+The `minimal` folder contains a set of minimal examples. 
+The scope of each of these minimal examples is very confined, so readers can easily
+identify the minimum code required for a certain feature.
+
 ## Prepare
 
 #### Haxe

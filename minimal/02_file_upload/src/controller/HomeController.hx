@@ -21,8 +21,6 @@ class HomeController extends Controller
 	@:route(POST, "/upload")
 	public function upload()
 	{
-		trace(context.request.post);
-		trace(context.request.files.keys());
 		var file = context.request.files['upload']; // use the form input name to retrieve the file
 		if(file != null)
 		{

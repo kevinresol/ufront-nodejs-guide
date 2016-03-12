@@ -1,0 +1,16 @@
+# use the ufront-mvc lib
+-lib ufront-mvc
+
+# we need hxnodejs because we are targeting nodejs
+-lib hxnodejs
+
+# ufront uses expressjs behind the hood
+-lib express
+
+# we are compiling for the server
+-D server
+
+# usual hxml things...
+-cp src
+-main Server
+-js bin/server.js

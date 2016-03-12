@@ -20,6 +20,8 @@ The `minimal` folder contains a set of minimal examples.
 The scope of each of these minimal examples is very confined, so readers can easily
 identify the minimum code required for a certain feature.
 
+More to come...
+
 ## Prepare
 
 #### Haxe

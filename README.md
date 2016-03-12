@@ -1,6 +1,6 @@
 # Ufront Guide for NodeJS target
 
-This is a collection of guides that is related to the NodeJS target of Ufront.
+This is a collection of guides for the NodeJS target of Ufront.
 
 #### Why NodeJS only?
 
@@ -26,13 +26,13 @@ More to come...
 
 #### Haxe
 
-Install the latest ufront libraries.
+Install the required libraries.
 
 ```
-git clone --recursive https://github.com/ufront/ufront.git
-cd ufront
-./setupDev
-sudo haxelib run ufront --setup
+haxelib git ufront-mvc https://github.com/ufront/ufront-mvc
+haxelib install express
+haxelib install hxnodejs
+haxelib install pushstate
 ```
 
 #### NodeJS

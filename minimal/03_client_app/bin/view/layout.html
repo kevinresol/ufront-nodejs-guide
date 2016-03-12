@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>::title::</title>
+</head>
+
+<body>
+	<p>
+		Try to click the following links and check your server log, there should be no request sent to server. <br/>
+		Because the request is handled at client side, because of the "pushstate" class.
+	</p>
+	<!-- When a link has class "pushstate", it will be handled by our ufront client app -->
+	<a class="pushstate" href="/">Home</a>
+	<a class="pushstate" href="/about">About</a>
+	
+	<p>
+		The following links will be handled by the server when the link has no "pushstate" class
+	</p>
+	<a href="/">Home</a>
+	<a href="/about">About</a>
+	
+	
+	<h1>Page contents start here:</h1>
+	::viewContent::
+	
+	<script src="/client.js"></script>
+</body>
+
+</html>

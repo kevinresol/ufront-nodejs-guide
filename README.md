@@ -29,6 +29,11 @@ cd minimal/01_static_results
 haxe server.hxml
 ```
 
+If there is a client, compile it as well:
+```
+haxe client.hxml
+```
+
 ## Run
 
 By default: Ufront requires the following node packages:

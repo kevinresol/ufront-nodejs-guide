@@ -2,6 +2,18 @@
 
 This is a collection of guides that is related to the NodeJS target of Ufront.
 
+#### Why NodeJS only?
+
+Actually, Ufront does support the neko and php target (and they work very well). 
+But according to my practical experience, the amount of libraries of nodejs (from npm) is much much more than what you can find for neko or php. 
+That makes development much easier and faster. (p.s. for neko, you are basically limited to only use Haxe libraries). So, let's focus on NodeJS!
+
+#### Compile for neko/php
+
+Since Ufront does support neko and php, so the guides here should also apply to these two targets, with slight modification. The main difference is the entry point. 
+In nodejs, we call `listen(port)` to start the server, and in neko/php we call `executeRequest()`.
+So, by changing this call you should be able to compile most of the examples in this guide.
+
 ## Prepare
 
 #### Haxe

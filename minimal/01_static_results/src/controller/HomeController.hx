@@ -47,4 +47,23 @@ class HomeController extends Controller
 	{
 		return new FilePathResult("package.json");
 	}
+	
+	/**
+		Advanced:
+		The above examples return a result in a sync manner. However, in many cases,
+		(especially on nodejs) server cannot return immediately due to heavy tasks,
+		network latency, etc. So, in order to return an async result, we can return a 
+		Future or Surprise of a result. To learn more about Future/Surprise, please 
+		read the doc of the tink_core library.
+	**/
+	@:route(GET, "/async")
+	public function async()
+	{
+		return Future.sync("Welcome to Ufront! (Async)") >>
+			function(message:String) return new ViewResult({
+				title: "Ufront NodeJS Guide",
+				message: message,
+			});
+	}
+	
 }

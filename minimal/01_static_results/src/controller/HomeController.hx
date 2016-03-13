@@ -1,6 +1,7 @@
 package controller;
 
 using ufront.MVC;
+using tink.CoreApi;
 
 class HomeController extends Controller
 {

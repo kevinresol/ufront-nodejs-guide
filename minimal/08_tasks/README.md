@@ -25,6 +25,7 @@ haxe tasks.hxml
 #### Run:
 
 ```bash
+cd bin
 node tasks.js --test
 node tasks.js --read-path start_server.sh
 ```

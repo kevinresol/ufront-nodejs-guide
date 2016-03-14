@@ -1,0 +1,17 @@
+<p>
+	::message::
+</p>
+<p>
+	Rendered by: ::renderedBy::
+</p>
+
+
+<p>Try to input something and click submit, the "GET" request will not be sent to server, 
+<br/>because it is handled by pushstate. Instead, the client will handle the request and, 
+<br/>for the API call it will use remoting so that the API call is actually run on the server.
+<br/>You can check the server output to verify that.</p>
+
+<form class="pushstate" method="GET">
+	<input name="param" />
+	<button>Submit</button>
+</form>

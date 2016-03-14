@@ -1,0 +1,13 @@
+# use the ufront-mvc lib
+-lib ufront-mvc
+
+# use the pushstate lib, which handles the browser history for us
+-lib pushstate
+
+# we are compiling for the client
+-D client
+
+# usual hxml things...
+-cp src
+-main Client
+-js bin/client.js

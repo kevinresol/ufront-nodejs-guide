@@ -1,6 +1,6 @@
 # Ufront Guide for NodeJS target
 
-This is a collection of guides for the NodeJS target of Ufront.
+This is a collection of guides for the NodeJS target of Ufront ([website](http://ufront.net), [repo](https://github.com/ufront)).
 
 ## Overview
 
@@ -51,7 +51,7 @@ haxelib install pushstate
 
 ##### NodeJS
 
-0. You need to install NodeJS on your machine, please refer to the official NodeJS guide.
+0. You need to install NodeJS on your machine, please refer to the official NodeJS guide ([website](https://nodejs.org)).
 0. Install the "nodemon" package, `npm install -g nodemon`.
 
 ### Build

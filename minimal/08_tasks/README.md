@@ -11,7 +11,7 @@ Since the task script resides in the server, you can write admin programs in thi
 way. For example, you can write a task that will clear obsolete/expired data from the database,
 or a task that will call an API to send out emails.
 
-UFTaskSet is based on the mcli library, for more usage details please refer to mcli docs.
+UFTaskSet is based on the [mcli](https://github.com/waneck/mcli) library, for more usage details please refer to mcli docs.
 
 ## How to build / run
 

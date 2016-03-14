@@ -3,3 +3,4 @@ uf-content/
 npm-debug.log
 server.js*
 client.js*
+tasks.js*

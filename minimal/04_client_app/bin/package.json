@@ -1,5 +1,5 @@
 {
-	"name": "01_static_results",
+	"name": "04_client_app",
 	"version": "1.0.0",
 	"private": true,
 	"dependencies": {

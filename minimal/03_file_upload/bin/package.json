@@ -1,5 +1,5 @@
 {
-	"name": "01_static_results",
+	"name": "03_file_upload",
 	"version": "1.0.0",
 	"private": true,
 	"dependencies": {

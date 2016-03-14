@@ -2,13 +2,15 @@
 
 This is a collection of guides for the NodeJS target of Ufront.
 
+## Overview
+
 #### Why NodeJS only?
 
 Actually, Ufront does support the neko and php target (and they work very well). 
 But according to my practical experience, the amount of libraries of nodejs (from npm) is much much more than what you can find for neko or php. 
 That makes development much easier and faster. (p.s. for neko, you are basically limited to only use Haxe libraries). So, let's focus on NodeJS!
 
-#### Compile for neko/php
+#### Compile for neko/php (if you insist)
 
 Since Ufront does support neko and php, so the guides here should also apply to these two targets, with slight modification. The main difference is the entry point. 
 In nodejs, we call `listen(port)` to start the server, and in neko/php we call `executeRequest()`.
@@ -22,9 +24,21 @@ identify the minimum code required for a certain feature.
 
 More to come...
 
-## Prepare
+#### Feedback
 
-#### Haxe
+Please feel free to open issues/PR for:
+- Example request
+- Bug report / bug fixes
+- Any other general feedback / questions
+
+
+## Usage
+
+The following are the steps to build and run the examples.
+
+### Prepare
+
+##### Haxe
 
 Install the required libraries.
 
@@ -35,12 +49,12 @@ haxelib install hxnodejs
 haxelib install pushstate
 ```
 
-#### NodeJS
+##### NodeJS
 
 0. You need to install NodeJS on your machine, please refer to the official NodeJS guide.
 0. Install the "nodemon" package, `npm install -g nodemon`.
 
-## Build
+### Build
 
 Navigate to each example folder, then build the hxml files there, for example:
 
@@ -54,7 +68,7 @@ If there is a client, compile it as well:
 haxe client.hxml
 ```
 
-## Run
+### Run
 
 By default: Ufront requires the following node packages:
 - compression
@@ -76,6 +90,6 @@ Then start the server:
 npm start
 ```
 
-## View
+### View
 
 Open your browser and navigate to `localhost:2987`

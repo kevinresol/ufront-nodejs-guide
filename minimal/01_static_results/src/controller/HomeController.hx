@@ -1,5 +1,7 @@
 package controller;
 
+import haxe.Timer;
+
 using ufront.MVC;
 using tink.CoreApi;
 
@@ -51,7 +53,7 @@ class HomeController extends Controller
 	
 	/**
 		Advanced:
-		The above examples return a result in a sync manner. However, in many cases,
+		The above examples return results in a sync manner. However, in many cases,
 		(especially on nodejs) server cannot return immediately due to heavy tasks,
 		network latency, etc. So, in order to return an async result, we can return a 
 		Future or Surprise of a result. To learn more about Future/Surprise, please 
@@ -60,7 +62,12 @@ class HomeController extends Controller
 	@:route(GET, "/async")
 	public function async()
 	{
-		return Future.sync("Welcome to Ufront! (Async)") >>
+		// simulate an async call
+		var trigger = Future.trigger();
+		Timer.delay(trigger.trigger.bind("Welcome to Ufront! (Async)"), 2500); // delay 2.5 seconds
+		
+		// return the async result
+		return trigger.asFuture() >>
 			function(message:String) return new ViewResult({
 				title: "Ufront NodeJS Guide",
 				message: message,

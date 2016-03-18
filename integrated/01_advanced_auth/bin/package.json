@@ -1,0 +1,17 @@
+{
+	"name": "06_basic_auth",
+	"version": "1.0.0",
+	"private": true,
+	"dependencies": {
+		"compression": "^1.6.1",
+		"body-parser": "^1.15.0",
+		"cookie-parser": "^1.4.1",
+		"express": "^4.13.4",
+		"multer": "^1.1.0",
+		"mongoose": "^4.3.3",
+		"jsonwebtoken": "^5.5.4"
+	},
+	"scripts": {
+		"start": "./start_server.sh"
+	}
+}

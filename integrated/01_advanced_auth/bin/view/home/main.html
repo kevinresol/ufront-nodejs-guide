@@ -1,0 +1,18 @@
+::if isLoggedIn::
+	<p>
+		You are logged in. Now try refreshing the page, it keeps you logged in.
+	</p>
+	<form method="POST" action="/logout">
+		<button>Logout</button>
+	</form>
+::else::
+	<p>
+		You are NOT logged in.
+	</p>
+	<h3>Log in here: (username: ufront, password: ufrontpw)</h3>
+	<form method="POST" action="/login">
+		<input type="text" name="username" />
+		<input type="password" name="password" />
+		<button>Login</button>
+	</form>
+::end::

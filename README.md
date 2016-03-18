@@ -22,7 +22,10 @@ The `minimal` folder contains a set of minimal examples.
 The scopes of these minimal examples are very confined, so readers can easily
 identify the minimum code required for a certain feature.
 
-More to come...
+The `integrated` folder contains a set of more-real-world examples that integrates 
+several features. These examples are usually more complex and maybe a little bit 
+harder to understand, make sure you have gone through the minimal examples first, 
+to gain a brief understanding of the individual features.
 
 #### Feedback
 

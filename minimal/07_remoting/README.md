@@ -10,3 +10,7 @@ Some quick comparison of Haxe remoting vs AJAX:
 0. Since it is fully typed, it gives you autocomplete in IDE
 0. It helps you share the same piece of code between server and client
 0. It is cross-platform: same code, compile to different targets
+
+### Prerequisites
+
+- [API](05_api)

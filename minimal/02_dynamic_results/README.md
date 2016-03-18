@@ -4,4 +4,4 @@ In this example, we will set up a minimal server that will handle GET/POST param
 
 ### Prerequisites
 
-- [Static Results](01_static_results)
+- [Static Results](../01_static_results)

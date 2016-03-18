@@ -13,4 +13,4 @@ Some quick comparison of Haxe remoting vs AJAX:
 
 ### Prerequisites
 
-- [API](05_api)
+- [API](../05_api)

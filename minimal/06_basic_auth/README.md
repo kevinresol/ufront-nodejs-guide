@@ -7,7 +7,7 @@ is only applicable to the current request. In other words, the log-in status wil
 
 ### Prerequisites
 
-- [Client App](04_client_app)
+- [Client App](../04_client_app)
 
 ## Overview
 

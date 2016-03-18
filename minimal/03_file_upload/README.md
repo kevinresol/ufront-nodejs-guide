@@ -4,4 +4,4 @@ In this example, we will set up a minimal server that will handle uploaded files
 
 ### Prerequisites
 
-- [Middleware](09_middleware)
+- [Middleware](../09_middleware)

@@ -15,7 +15,7 @@ class Server
 			indexController: HomeController,
 			defaultLayout: "layout.html",
 			authImplementation: Auth, // specify our auth implementation
-			requestMiddleware: [new AuthMiddleware()],
+			requestMiddleware: [new AuthMiddleware()], // our auth middleware will check, when a request arrives, for a login access token
 		});
 		
 		// init database

@@ -15,6 +15,12 @@ class AuthMiddleware implements UFRequestMiddleware
 	
 	public function new() {}
 
+	/**
+		This function will be run when a request arrives, before it is handled by controllers.
+		We look for a access token in the request and use it to identify the user.
+		If an user is identified we initiate our auth handler, so that later when a controller
+		handles this request, it can use `context.auth` to find out the auth-related information.
+	**/
 	public function requestIn( ctx:HttpContext ):Surprise<Noise,Error> 
 	{
 		// try to fetch the access token from cookies or post/get params

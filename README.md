@@ -4,6 +4,12 @@ This is a collection of guides for the NodeJS target of Ufront ([website](http:/
 
 ## Overview
 
+#### What is Ufront?
+
+From Ufront repo: 
+
+> Ufront is a client/server MVC web framework for Haxe. It allows you to share models, views and controllers between both server-side and client-side code. Client side, your app will run as a fast single-page-app. But everything can still work server-side - which makes for fast first page loads, great SEO, and a good fallback for old browsers.
+
 #### Why NodeJS only?
 
 Actually, Ufront does support the neko and php target (and they work very well). 

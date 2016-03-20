@@ -10,6 +10,10 @@ class Auth implements UFAuthHandler
 	// actually stores the user;
 	var _currentUser:User;
 	
+	public function new()
+	{
+	}
+	
 	// initialize our auth handler with an user id,
 	// this user id should be the result of some authentication (e.g. username/password)
 	public function init(userId:String)

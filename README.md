@@ -40,6 +40,8 @@ Please feel free to open issues/PR for:
 - Bug report / bug fixes
 - Any other general feedback / questions
 
+Or you can join our chatroom: https://gitter.im/ufront/ufront
+
 
 ## Usage
 

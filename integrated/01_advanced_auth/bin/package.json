@@ -1,5 +1,5 @@
 {
-	"name": "06_basic_auth",
+	"name": "01_advanced_auth",
 	"version": "1.0.0",
 	"private": true,
 	"dependencies": {

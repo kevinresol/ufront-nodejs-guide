@@ -1,0 +1,15 @@
+{
+	"name": "02_reactjs",
+	"version": "1.0.0",
+	"private": true,
+	"dependencies": {
+		"compression": "^1.6.1",
+		"body-parser": "^1.15.0",
+		"cookie-parser": "^1.4.1",
+		"express": "^4.13.4",
+		"multer": "^1.1.0"
+	},
+	"scripts": {
+		"start": "./start_server.sh"
+	}
+}

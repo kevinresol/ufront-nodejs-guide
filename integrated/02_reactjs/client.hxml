@@ -1,0 +1,19 @@
+# use the ufront-mvc lib
+-lib ufront-mvc
+
+# use the pushstate lib, which handles the browser history for us
+-lib pushstate
+
+# the haxe-react library
+-lib react
+
+# we are compiling for the client
+-D client
+
+# we are not going to use js require
+-D react_global
+
+# usual hxml things...
+-cp src
+-main Client
+-js bin/client.js

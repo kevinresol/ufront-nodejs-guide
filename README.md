@@ -1,3 +1,5 @@
+**Warning:** Ufront is not actively maintained now (as at Mar 2018). I highly recommend you to use [tink_web](https://github.com/haxetink/tink_web) instead
+
 # Ufront Guide for NodeJS target
 
 This is a collection of guides for the NodeJS target of Ufront ([website](http://ufront.net), [repo](https://github.com/ufront)).
